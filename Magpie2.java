@@ -44,6 +44,21 @@ public class Magpie2
               {
                   response = "Neato!";
                 }
+                //Aidan Moran
+                else if (statement.indexOf("who") >= 0)
+                {
+                    response = "Hmmm... I'm not good at history";
+                }
+                //Aidan Moran
+                else if (statement.indexOf("advice") >= 0)
+                {
+                    response = "DON'T PANIC";
+                }
+                //Aidan Moran
+                else if (statement.indexOf("Take me too your leader") >= 0)
+                {
+                    response = "You're an alien?";
+                }
               else
               {
                       response = getRandomResponse();
